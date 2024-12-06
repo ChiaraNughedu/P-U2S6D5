@@ -3,6 +3,9 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    display: flex;
+}
 .navbar-brand {
     width: 15%;
     padding-left: 5px;
@@ -15,7 +18,7 @@ html, body {
     border: none;
 }
 .collapse {
-    width: 45%;
+    width:35%;
     margin: 0;
 }
 .right {
@@ -27,7 +30,14 @@ select {
     width: 18px;
     border: none;
 }
+    
 
+form {
+    width: 40%;
+    text-align: right;
+    margin-left: 0;
+    padding-left: 200px;
+}
 form img {
     width: 50px;
     height: 40px;
@@ -47,4 +57,7 @@ form, a {
     border: 1px solid white;
     background-color: #212529;
     border-radius: 0;
+}
+.avatar {
+    width: 100px;
 }

@@ -45,41 +45,184 @@
               <li class="nav-item text-light px-2">Recently Added</li>
               <li class="nav-item text-light px-2">My list</li>
             </ul>
-            <form class="d-flex text-start" role="search">
+            
+            <form class="d-flex text-start ms-5" role="search">
               <i class="bi bi-search px-1 text-align-center"></i>
-              <a class="px-1 text-align-center" href="javascript.void(0);">KIDS</a>
+              <a class="px-1 text-align-center" href="javascript.void(0);"
+                >KIDS</a
+              >
               <i class="bi bi-bell px-1 text-items-center"></i>
-              <img class="px-1" src="assets/images/avatar.png" />
-              <select class="bg-dark">
-                <option selected>Epicoder #1</option>
-                <option value="1">Manage Profile</option>
-                <option value="2">Account</option>
-                <option value="3">Help Center</option>
-                <option value="4"></option>
-                <option value="5">Signout Netflix</option>
-              </select>
+              
+              <div class="btn-group dropstart bg-dark">
+                <button type="button" class="btn btn-dark dropdown-toggle me-0 pe-0" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="px-1" src="assets/images/avatar.png" />
+                </button>
+                <ul class="dropdown-menu text-start">
+                    <li> <img class="px-1" src="assets/images/avatar.png" /> <button class="dropdown-item" type="button">Epicoder #1</button></li>
+                    <li><button class="dropdown-item" type="button"> <a href="profile.html">Manage Profile</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="profile.html">Account</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="javascript.void(0);">Help Center</a></button></li>
+                    <li><button class="dropdown-item disabled" type="button"><a href="javascript.void(0);"></a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="javascript.void(0);">Signout Netflix</a></button></li>
+                  </ul>
+                </div>
+              </div>
             </form>
           </div>
         </div>
       </nav>
     </header>
     <main class="bg-dark">
-        <div class="container-fluid bg-dark">
-            <div class="row py-1 px-2">
-                <div class="col text-start me-0 pe-0">
-                    <h2 class="text-light py-1">TV Shows</h2>
-                </div>
-                <div class="col text-start">
-                    <select class="form-select text-light my-2">
-                        <option> Genres </option>
-                    </select>
-                </div>
-                <div class="col text-end py-3">
-                    <i class="bi bi-list border border-light m-0 px-2"></i>
-                    <i class="bi bi-bar-chart border border-light m-0 px-2"></i>
-                </div>
-            </div>
+      <div class="container-fluid bg-dark">
+        <div class="row py-1 px-2">
+          <div class="col text-start me-0 pe-0">
+            <h2 class="text-light py-1">TV Shows</h2>
+          </div>
+          <div class="col text-start">
+            <select class="form-select text-light my-2">
+              <option>Genres</option>
+            </select>
+          </div>
+          <div class="col text-end py-3">
+            <i class="bi bi-list border border-light m-0 px-2"></i>
+            <i class="bi bi-bar-chart border border-light m-0 px-2"></i>
+          </div>
         </div>
+      </div>
+
+      <section class="container-fluid pt-3">
+        <div class="row">
+          <div>
+            <h6 class="text-light py-2"> Trending now </h6>
+          </div>
+          <div class="col">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-md-flex">
+                    <div><img src="assets/images/media0.webp" class="d-block w-md-100 my-1" alt="1"></div>
+                    <div><img src="assets/images/media1.jpg" class="d-block w-md-100 my-1" alt="2"></div>
+                    <div><img src="assets/images/media10.jpg" class="d-block w-md-100 my-1" alt="3"></div>
+                    <div><img src="assets/images/media11.jpg" class="d-block w-md-100 my-1" alt="4"></div>
+                    <div><img src="assets/images/media12.jpg" class="d-block w-md-100 my-1" alt="5"></div>
+                    <div><img src="assets/images/media13.jpg" class="d-block w-md-100 my-1" alt="6"></div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pt-3">
+        <div class="row">
+          <div>
+            <h6 class="text-light py-2"> Watch it again</h6>
+          </div>
+          <div class="col">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-md-flex">
+                    <div><img src="assets/images/media14.webp" class="d-block w-md-100 my-1" alt="1"></div>
+                    <div><img src="assets/images/media15.jpg" class="d-block w-md-100 my-1" alt="2"></div>
+                    <div><img src="assets/images/media16.webp" class="d-block w-md-100 my-1" alt="3"></div>
+                    <div><img src="assets/images/media17.jpg" class="d-block w-md-100 my-1" alt="4"></div>
+                    <div><img src="assets/images/media18.jpg" class="d-block w-md-100 my-1" alt="5"></div>
+                    <div><img src="assets/images/media19.webp" class="d-block w-md-100 my-1" alt="6"></div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid pt-3">
+        <div class="row">
+          <div>
+            <h6 class="text-light py-2"> New Releases </h6>
+          </div>
+          <div class="col">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-md-flex">
+                    <div><img src="assets/images/media20.jpg" class="d-block w-md-100 my-1" alt="1"></div>
+                    <div><img src="assets/images/media21.webp" class="d-block w-md-100 my-1" alt="2"></div>
+                    <div><img src="assets/images/media22.webp" class="d-block w-md-100 my-1" alt="3"></div>
+                    <div><img src="assets/images/media23.webp" class="d-block w-md-100 my-1" alt="4"></div>
+                    <div><img src="assets/images/media24.jpg" class="d-block w-md-100 my-1" alt="5"></div>
+                    <div><img src="assets/images/media25.webp" class="d-block w-md-100 my-1" alt="6"></div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+<footer class="p-5">
+
+<div class="container-fluid py-3 my-3">
+    <div class="row mx-5 text-light">
+        <div class="col-md-2 col-lg-4">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>  
+            <i class="bi bi-youtube"></i>
+        </div>
+        
+        <div class="col-md-2 col-lg-4"><p>Audio Description</p></div>
+        <div class="col-md-2 col-lg-4"><p>Help Center</p></div>
+        <div class="col-md-2 col-lg-4"><p>Audio and Subtitles</p></div>
+        <div class="col-md-2 col-lg-4"><p>Gift Cards</p></div>
+        <div class="col-md-2 col-lg-4"><p>Media Center</p></div>
+        <div class="col-md-2 col-lg-4"><p>Investor Relations</p></div>
+        <div class="col-md-2 col-lg-4"><p>Jobs</p></div>
+        <div class="col-md-2 col-lg-4"><p>Terms of Use</p></div>
+        <div class="col-md-2 col-lg-4"><p>Privacy</p></div>
+        <div class="col-md-2 col-lg-4"><p>Legal Notices</p></div>
+        <div class="col-md-2 col-lg-4"><p>Cookie Preferences</p></div>
+        <div class="col-md-2 col-lg-4"><p>Corporate Information</p></div>
+        <div class="col-md-2 col-lg-4"><p>Contact Us</p></div>
+    </div>
+</div>
+<div class="mx-5">
+<button type="button" class="btn btn-outline-secondary mx-3">Service Code</button>
+</div>
+<div class="text-secondary mx-5 my-3"> <p class="mx-3"> &copy; 1997-2021 Netflix Inc</p>
+</div>
+</footer>
+
+      
+
+
+
+
+
     </main>
 
     <script
