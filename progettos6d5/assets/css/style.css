@@ -58,8 +58,13 @@ form, a {
     background-color: #212529;
     border-radius: 0;
 }
-.avatar {
-    width: 100px;
+.colImg {
+    position: relative;
+}
+.colImg .avatar {
+    position: absolute;
+    right: 0;
+    width: 90px;
 }
 .btn5 {
     font-size: 0.7rem;
