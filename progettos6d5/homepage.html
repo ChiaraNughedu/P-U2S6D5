@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Netflix Clone</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark border-body"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.netflix.com/"
+            ><img src="assets/images/netflix_logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-light px-2">Home</li>
+              <li class="nav-item text-light px-2">TV Shows</li>
+              <li class="nav-item text-light px-2">Movies</li>
+              <li class="nav-item text-light px-2">Recently Added</li>
+              <li class="nav-item text-light px-2">My list</li>
+            </ul>
+            <form class="d-flex text-start" role="search">
+              <i class="bi bi-search px-1 text-align-center"></i>
+              <a class="px-1 text-align-center" href="javascript.void(0);">KIDS</a>
+              <i class="bi bi-bell px-1 text-items-center"></i>
+              <img class="px-1" src="assets/images/avatar.png" />
+              <select class="bg-dark">
+                <option selected>Epicoder #1</option>
+                <option value="1">Manage Profile</option>
+                <option value="2">Account</option>
+                <option value="3">Help Center</option>
+                <option value="4"></option>
+                <option value="5">Signout Netflix</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="bg-dark">
+        <div class="container-fluid bg-dark">
+            <div class="row py-1 px-2">
+                <div class="col text-start me-0 pe-0">
+                    <h2 class="text-light py-1">TV Shows</h2>
+                </div>
+                <div class="col text-start">
+                    <select class="form-select text-light my-2">
+                        <option> Genres </option>
+                    </select>
+                </div>
+                <div class="col text-end py-3">
+                    <i class="bi bi-list border border-light m-0 px-2"></i>
+                    <i class="bi bi-bar-chart border border-light m-0 px-2"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
