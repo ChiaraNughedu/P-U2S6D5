@@ -72,16 +72,50 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid text-light">
+    <div class="container-fluid text-light my-2">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-4 text-start align-self-start">
+            <div class="col-md-4 text-start align-self-start border-bottom">
                 <img class="avatar" src="assets/images/avatar.png">
-            <h6>EpiCoder #1</h6>
+            <h6 class="bg-tertiary text-light">EpiCoder #1</h6>
             <p class="text-secondary">Language:</p>
-            <select><p>English</p></select>
-        </div>
-            
+            <select class="form-select text-secondary mb-3" aria-label="Default select example">
+                <option selected>English</option>
+              </select>
+            </div>    
         </div> 
+    </div>
+    <div class="container-fluid text-light my-2">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md-4 text-start align-self-start border-bottom">
+            <h6 class="bg-tertiary text-secondary">Maturity Settings:</h6>
+            <button class="btn5 btn-outline-secondary text-light fw-bold text-uppercase p-1"> all maturity settings</button>
+            <p class="par5 py-2">Show files for all maturity settings for this profile.</p>
+            <button class="btn6 btn-tertiary border px-2 text-secondary mb-3">EDIT</button>
+            </div>    
+        </div> 
+    </div>
+    <div class="container-fluid text-light my-2">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md-4 text-start align-self-start border-bottom">
+            <h6 class="bg-tertiary text-secondary">Autoplay Controls:</h6>
+            <input class="mb-2" type="checkbox" id="myCheckbox">
+             <label for="myCheckbox">Autoplay next episode in a series on all devices</label></br>
+             <input class="mb-5" type="checkbox" id="myCheckbox1">
+             <label for="myCheckbox">Autoplay next episode in a series on all devices</label>
+
+            </div>    
+        </div> 
+    </div>
+    <div class="container-fluid text-light my-2 ">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md-4 text-center align-self-start border-bottom pt-3 pb-5">
+                <button type="button" class="btn btn-dark border border-secondary px-3">SAVE</button>
+                <button type="button" class="btn btn-dark border border-secondary px-4">CANCEL</button>
+                <button type="button" class="btn btn-dark border border-secondary px-5">DELETE PROFILE</button>
+            </div>    
+        </div> 
+    </div>
+
     </div>
 
 </main>

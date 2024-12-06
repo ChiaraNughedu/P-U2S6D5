@@ -61,3 +61,22 @@ form, a {
 .avatar {
     width: 100px;
 }
+.btn5 {
+    font-size: 0.7rem;
+    background-color: #454546;
+    border: none;
+}
+.par5 {
+    font-size: 0.8rem;
+}
+.btn6 {
+    background-color: #212529;
+}
+#myCheckbox, #myCheckbox1 {
+    width: 30px;
+    border: 1px solid gray;
+    background-color: #212529;
+}
+#myCheckbox, label {
+    font-size: 0.8rem;
+} 
