@@ -73,10 +73,10 @@ form, a {
     background-color: #212529;
 }
 #myCheckbox, #myCheckbox1 {
-    width: 30px;
+    width: 10px;
     border: 1px solid gray;
     background-color: #212529;
 }
 #myCheckbox, label {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 } 
